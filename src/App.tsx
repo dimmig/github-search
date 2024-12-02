@@ -6,8 +6,8 @@ import {Favourites} from "./pages/Favourites";
 function App() {
   return (
    <Routes>
-     <Route path='/' element={<Home />}/>
-     <Route path='/favourites' element={<Favourites />}/>
+     <Route path='/github-search' element={<Home />}/>
+     <Route path='/github-search/favourites' element={<Favourites />}/>
    </Routes>
   );
 }
