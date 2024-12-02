@@ -9,7 +9,7 @@ export function Navbar(props: Props) {
             <h2 className='font-bold'>Github Search</h2>
             <span className='flex flex-row gap-4'>
                 <Link to='/'>Home</Link>
-                <Link to='/favourites'>Favourites</Link>
+                <Link to='/github-search/favourites'>Favourites</Link>
             </span>
         </nav>
     );
